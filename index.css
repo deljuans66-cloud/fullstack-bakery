@@ -1,0 +1,76 @@
+html {
+  background-color: rgb(159, 168, 236);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1em;
+  align-items: start;
+}
+
+.nav {
+  display: flex;
+  gap: 0.7em;
+  font-size: 1.7em;
+}
+
+a {
+  display: flex;
+  color: black;
+  font-family: "Brush Script MT", cursive;
+  border: black;
+}
+
+.brand {
+  display: flex;
+  align-content: start;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(4, 1, 1);
+  font-size: 6rem;
+  margin-bottom: 0.1em;
+}
+
+main {
+  display: flex;
+  flex-grow: 2em;
+  gap: 1.1em;
+}
+
+ul,
+li {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  gap: 0.1em;
+  margin: 0.1em;
+  padding: 0.5em;
+  font-family: "Brush Script MT", cursive;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  background-color: rgb(9, 117, 240);
+  font-size: 1.9em;
+  width: 5em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.testimonial {
+  background-color: grey;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
